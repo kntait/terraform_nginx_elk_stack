@@ -51,9 +51,9 @@ When you have updated the above run:
 
 #Example Usage
 
-To view the default static HTML page go to instance **<public ip>/test_page.html**
+To view the default static HTML page go to instance **public ip/test_page.html**
 
-To access Kibana browse to instance **<public ip>:8080**, in the prompt type in the following default credentials:
+To access Kibana browse to instance **public ip:8080**, in the prompt type in the following default credentials:
 
 **user: admin**
 **password: admin**
