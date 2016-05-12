@@ -1,17 +1,15 @@
-kntait/terraform_nginx_elk_stack
-
-Terraform NGINX ELK - Docker Stack
+#Terraform NGINX ELK - Docker Stack
 
 This project uses Terraform to build and configure NGINX, Elasticsearch, Logstash and Kibana docker containers on a EC2 instance in AWS. 
 
 NGINX by defauly uses S3 as backend and acts as a proxy for Kibana as well as authentication.
 NGINX access logs are pipped to Logstash and then Elasticsearch, Kiban will then query Elasticsearch.
 
-Prerequisites:
+#Prerequisites:
 
 Terraform 0.6.15
 
-Installation:
+#Installation:
 
 Before runnnig terraform update the followin in the variables.tf file.
 
@@ -46,9 +44,9 @@ When you have updated the above run:
 
 terraform apply
 
-# Provisioning time may differ - Please allow 5-10 minutes before attempting to access.
+NOTE - Provisioning time may differ - Please allow 5-10 minutes before attempting to access.
 
-Example Usage
+#Example Usage
 
 To view the default static HTML page go to instance <public ip>/test_page.html
 
